@@ -1,0 +1,1 @@
+This repository demonstrates a common type error in Hack. The `bar` function calls the `foo` function, passing in a string instead of an integer. This will cause a type error because the foo function expects an integer as input. The solution demonstrates how to use type annotations to catch these errors before runtime. 
